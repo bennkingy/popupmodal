@@ -14,7 +14,7 @@
     "description": { "default": "Submit questions regarding the Microsoft 365 programme." },
     "officeFabricIconFontName": "StatusCircleQuestionMark",
     "properties": {
-      "description": "Submit questions regarding the Microsoft 365 programme."
+      "description": ""
     }
   }]
 }

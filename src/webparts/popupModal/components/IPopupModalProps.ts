@@ -1,4 +1,4 @@
 export interface IPopupModalProps {
-  description: string;
+  //description: string;
   context: any;
 }

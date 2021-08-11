@@ -17,7 +17,7 @@ import { setup as pnpSetup } from "@pnp/common";
 
 
 export interface IPopupModalWebPartProps {
-  description: string;
+  // description: string;
   context: WebPartContext;
 }
 
@@ -27,8 +27,7 @@ export default class PopupModalWebPart extends BaseClientSideWebPart<IPopupModal
     const element: React.ReactElement<IPopupModalProps> = React.createElement(
       PopupModal,
       {
-        context: this.context,
-        description: this.properties.description
+        context: this.context
       }
     );
 
@@ -57,15 +56,15 @@ export default class PopupModalWebPart extends BaseClientSideWebPart<IPopupModal
       pages: [
         {
           header: {
-            description: strings.PropertyPaneDescription
+            description: "Settings"
           },
           groups: [
             {
-              groupName: strings.BasicGroupName,
+              // groupName: strings.BasicGroupName,
               groupFields: [
-                PropertyPaneTextField('description', {
-                  label: strings.DescriptionFieldLabel
-                })
+                // PropertyPaneTextField('description', {
+                //   label: strings.DescriptionFieldLabel
+                // })
               ]
             }
           ]

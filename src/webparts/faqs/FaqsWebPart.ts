@@ -52,14 +52,14 @@ export default class FaqsWebPart extends BaseClientSideWebPart<IFaqsWebPartProps
       pages: [
         {
           header: {
-            description: strings.PropertyPaneDescription
+            description: "Settings"
           },
           groups: [
             {
-              groupName: strings.BasicGroupName,
+              // groupName: strings.BasicGroupName,
               groupFields: [
                 PropertyPaneTextField('description', {
-                  label: strings.DescriptionFieldLabel
+                  label: "Header"
                 })
               ]
             }

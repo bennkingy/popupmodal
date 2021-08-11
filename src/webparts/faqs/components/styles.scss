@@ -32,13 +32,13 @@
 }
 
 @media(max-width:767px) {
-  .faqs_1d9de31c .filters_1d9de31c {
+  [class^="faqs_"] [class^="filters_"] {
     flex-direction: column-reverse;
     margin-top: 20px;
     align-items: center;
     margin-bottom: 20px;
   }
-  .faqs_1d9de31c .filters_1d9de31c>*{
+  [class^="faqs_"] [class^="filters_"] > * {
     padding:5px;
   }
 }
