@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "popup-modal-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/popupModal/PopupModalWebPart.js",
+          "manifest": "./src/webparts/popupModal/PopupModalWebPart.manifest.json"
+        }
+      ]
+    },
+    "faqs-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/faqs/FaqsWebPart.js",
+          "manifest": "./src/webparts/faqs/FaqsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PopupModalWebPartStrings": "lib/webparts/popupModal/loc/{locale}.js",
+    "FaqsWebPartStrings": "lib/webparts/faqs/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

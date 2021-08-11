@@ -1,0 +1,44 @@
+.accordion_2b062414 .drawer_2b062414 {
+    padding: 7px 12px;
+}
+
+.accordion_2b062414 > button {
+  background: #00a9ce;
+  color: white;
+  margin-bottom: 2px;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  outline: none;
+  &:hover {
+    background: #00a9ce;
+    color: white;
+    margin-bottom: 2px;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+  }
+  &:focus {
+    background: #00a9ce;
+    color: white;
+    margin-bottom: 2px;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    outline: none;
+    border: none;
+  }
+}
+
+.accordionChevron_2b062414 {
+  color: white;
+  &:hover {
+    color: white;
+  }
+}
+
+@media(max-width:767px) {
+  .faqs_1d9de31c .filters_1d9de31c {
+    flex-direction: column-reverse;
+    margin-top: 20px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .faqs_1d9de31c .filters_1d9de31c>*{
+    padding:5px;
+  }
+}
